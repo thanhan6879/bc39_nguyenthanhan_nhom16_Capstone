@@ -1,0 +1,44 @@
+ .white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 20px;
+  width: auto;
+  max-width: 200px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+
+.mfp-counter {
+  font-size:  1rem !important;
+}
+
+
+
+.gallery-arrow{
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
+  background-color: #fff;
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  text-align: center;
+  line-height: 30px;
+  cursor: pointer;
+}
+.gallery-arrow-left{
+  left: 30px;
+}
+.gallery-arrow-left:before{
+  content:'<';
+  color: #000;
+}
+.gallery-arrow-right{
+  right: 30px;
+}
+.gallery-arrow-right:before{
+  content:'';
+  color: #000;
+}
